@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/markdown-splendor/css/splendor.css"
+    />
+  </head>
+  <body>
+    <h1 id="startdevelopinglocallylearnprogrammingforcompletebeginners">
+      Start Developing Locally - Learn Programming for complete beginners 📈
+    </h1>
+    <p>
+      So you just finished your first coding course on codecademy or you’ve been
+      using an online ide like repl.it. Now you're wondering how do I actually
+      do this on my own computer? Well I’ll cover that in this article. In this
+      article I’m going to use node js (javascript) and show you how to get up
+      and running and explain what’s going on.
+    </p>
+    <h2 id="todo">TODO</h2>
+    <ol>
+      <li>decide on title</li>
+      <li>add my tiwtter handle</li>
+      <li>think of more articles to branch off of from here</li>
+    </ol>
+    <hr />
+    <p>other possible titles</p>
+    <ul>
+      <li>get your code academy editor setup locally</li>
+      <li>basics of setting up an enviornment and tools you need</li>
+      <li>
+        so you learned to code from code academy but have no idea what to do
+        locally
+      </li>
+    </ul>
+    <h2 id="addmytwittersasacocic">add my twitter @sasacocic</h2>
+    <h1 id="hereswhatsonthemenu">Heres what’s on the menu</h1>
+    <ol>
+      <li>Install node js and talk about what’s going on</li>
+      <li>
+        Talk about text editors and how you get some sweet functionality on your
+        local machine + all the tools they come with to help you develop.
+      </li>
+    </ol>
+    <h2 id="theshortofit">The short of it 👏</h2>
+    <ol>
+      <li>Open a shell (wtf is a shell)</li>
+      <li>
+        Use your compiler or interpreter (wtf is a compiler or interpreter) and
+        pass in a file as an argument (whaaaaat)
+      </li>
+      <li>
+        Boom, you're up and running. A hello world program should be good to go
+      </li>
+      <li>
+        Now you can do the most atomic step of starting a program. This is good,
+        but you can do a lot better! Knowing how this works is an indispensable
+        tool. To supercharge your development you’ll want a good text editor or
+        IDE (text editors these days really blur the lines between ide and text
+        editor) this is what’ll give you syntax highlighting, autocompletion,
+        and a bunch of other cool features.
+      </li>
+    </ol>
+    <h2 id="thelongofit">The long of it 😾</h2>
+    <p>
+      Ok the short of it really wasn’t that helpful at all. So lets dig into
+      these things so you know what’s going on! Alright lets install node, but
+      wait wtf is node.
+    </p>
+    <h4 id="detourtojavascriptland">Detour to javascript land 😥</h4>
+    <p>
+      Welcome to Javascript land. Just like all programming langauges Javascript
+      needs to be transformed from the text we see on the screen into binary
+      (what our roboto overlords understand i.e. 0's &amp; 1's). Browsers like
+      Firefox and Google know how to do this. Specifically Google Chrome's
+      engine for doing this is called V8. V8 looks at javascript code and turns
+      it into something a computer can understand. BOOM Binary. Now some smart
+      people said lets take V8 and lets build a library to interact with your OS
+      and make that into a program (There is more to it, but I think for the
+      most part that's it). That's node V8 plus a library that lets you do
+      things with your OS that V8 didn't support. Node JS is very similar to
+      your browser in the sense that it's just something that takes javascript
+      code and runs it.
+    </p>
+    <h4 id="downloadingnodejs">Downloading Node JS 😤</h4>
+    <p>
+      If you go to <a href="https://nodejs.org/en/">node js's website</a> you
+      can download Node from there. Go ahead and download the one that says LTS
+      (LTS stands for long term support). Follow those instructions and it
+      should be pretty straight forward. If it isn't let me know and I will add
+      instructions to this article.
+    </p>
+    <h4 id="usingnode">Using Node 🤔</h4>
+    <p>
+      Alright cool now we have Node installed on our machine. Lets write a hello
+      world program! Copy the code below and put it in a file called
+      <code>index.js</code>
+    </p>
+    <pre><code class="node language-node">function main() {
+  console.log("hello world!");
+}
+main();
+</code></pre>
+    <p>
+      If you haven't opened up your shell you'll want to do that now. I'm on a
+      Mac so I'll open the <code>Terminal</code> program. If your on linux it
+      should be pretty similar. If your on window I'm sorry.
+    </p>
+    <blockquote>
+      <p>
+        Jk windows users, but I have no idea how to do this in windows. If
+        someone can give me some instructions on this I'll add them here
+      </p>
+    </blockquote>
+    <p>
+      some stuff on terminal basics here like <code>pwd</code> <code>ls</code>
+      <code>cd</code> <code>echo</code> <code>path</code>
+    </p>
+    <p>run the following in the terminal</p>
+    <pre><code class="bash language-bash">-&gt; node index.js
+</code></pre>
+    <p>you should see</p>
+    <pre><code class="bash language-bash">hello world!
+</code></pre>
+    <p>
+      explain what is up if node doesn't work for some reason. Also do a sanity
+      check of why node might not be showing up.
+    </p>
+    <p>
+      That's the most atomic unit of running code on your local machine. This
+      process pretty much the same for all languages. When you click that green
+      play button in your nice IDE or text editor this is most likely what is
+      happening behind the scenes.
+    </p>
+    <h2 id="texteditorworld">Text Editor World 🤩</h2>
+    <p>
+      Lets talk about cool tools now. For the follow I'm going to use the word
+      Text Editor and IDE interchangably. Also, I'm going use TE for Text
+      Editor. Text Editors give us a bunch of tools + configuration to
+      supercharge our development and make things easier for us. Many give
+      syntax hightlighting when you've written something wrong in your code,
+      autocompletion, easy code searching, visual git support, a file explorer,
+      integrated shell, and much more + the ability to download 3rd party
+      packages to extend the original capabilites of the text editor soooooo
+      basically unlimited customization. For this article we are going to use
+      <a href="https://code.visualstudio.com/">Visual Studio Code</a>. Go ahead
+      and download it. Again should be pretty straight forward.
+    </p>
+    <blockquote>
+      <p>
+        If downloading visual studio code is not straight forward let me know
+        and I can ammend this article.
+      </p>
+    </blockquote>
+    <h3 id="visualstudiocode">Visual Studio Code 😎</h3>
+    <blockquote>
+      <p>I'm going to refer to Visual Sudio Code as VS Code going forward</p>
+    </blockquote>
+    <p>
+      Visual Studio code has amazing support for javascript out of the box so
+      there isn't really anything that we need to do for Node. Go ahead and open
+      our <code>index.js</code> file in VS Code.
+    </p>
+    <blockquote>
+      <p>!! explain how to open in vs code !!</p>
+    </blockquote>
+    <p>
+      Alright at this point we have paralleled anything in CodeAcademy or
+      Repl.it. You should be ready to code to your hearts content at this point!
+    </p>
+    <h3 id="whatifididntlearnnodejs">What if I didn't learn Node js</h3>
+    <p>
+      well if you didn't learn Node js don't fret friend! VS Code has a whole
+      bunch of plugins you can get. There's some for you language of choice.
+    </p>
+    <p>
+      Learned Java? there's an extension (but if ) Learned Python? There's an
+      extension Learned Go? There's an extension You get the picture.
+    </p>
+    <h3 id="conclusion">Conclusion</h3>
+    <p>
+      what to do next? Keep programming commrade! Enjoy the fruits of your
+      labor. One thing this article didn't go over was package managers. I'll
+      cover those in my next article and I'll continue with the node theme,
+      we'll be using Yarn and NPM.
+    </p>
+    <p>
+      As always I'm not perfect and I'd love feedback on this article and
+      suggestions for what to talk about next. Let me know!
+    </p>
+    <p>Peace!</p>
+  </body>
+</html>

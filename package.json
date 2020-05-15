@@ -1,0 +1,17 @@
+{
+  "name": "sasacocic.github.io",
+  "version": "1.0.0",
+  "description": "blog posts of mine",
+  "main": "index.js",
+  "repository": "https://github.com/sasacocic/sasacocic.github.io.git",
+  "author": "sasa cocic <cocicsasa@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "markdown-splendor": "^1.0.1",
+    "showdown": "^1.9.1"
+  },
+  "scripts": {
+    "ex": "node index.js"
+  }
+}
