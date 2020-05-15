@@ -57,21 +57,6 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-furtive-print@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/furtive-print/-/furtive-print-0.0.1.tgz#3db207a279f928de21fdfeba7d7f7a4dd945748f"
-  integrity sha1-PbIHonn5KN4h/f66fX96TdlFdI8=
-
-furtive-responsive-utils@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/furtive-responsive-utils/-/furtive-responsive-utils-0.0.1.tgz#4c26580fdbc89daaa90473553734152ec20850dd"
-  integrity sha1-TCZYD9vInaqpBHNVNzQVLsIIUN0=
-
-furtive-typescale@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/furtive-typescale/-/furtive-typescale-0.0.4.tgz#02bc4ad3eb822f1d2ee2d0dae8a60bcbae75f640"
-  integrity sha1-ArxK0+uCLx0u4tDa6KYLy6519kA=
-
 get-caller-file@^2.0.1:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
@@ -89,15 +74,6 @@ locate-path@^3.0.0:
   dependencies:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
-
-markdown-splendor@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/markdown-splendor/-/markdown-splendor-1.0.1.tgz#e03ac3394f9b793353288c56ca05631c83f68666"
-  integrity sha1-4DrDOU+beTNTKIxWygVjHIP2hmY=
-  dependencies:
-    furtive-print "0.0.1"
-    furtive-responsive-utils "0.0.1"
-    furtive-typescale "0.0.4"
 
 p-limit@^2.0.0:
   version "2.3.0"

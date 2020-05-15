@@ -8,7 +8,6 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "markdown-splendor": "^1.0.1",
     "showdown": "^1.9.1"
   },
   "scripts": {
