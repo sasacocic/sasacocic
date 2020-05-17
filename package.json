@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "jsdom": "^16.2.2",
     "showdown": "^1.9.1"
   },
   "scripts": {
