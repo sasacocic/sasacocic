@@ -91,3 +91,7 @@ Users: 20 organic signups
 ## Updates:
 
 Since posting this I've gotten advice from some people. Some advice I've gotten is to talk to people in person so I'm going to start doing that.
+
+## Other random thougts
+
+What would be awesome? 1000 users. If I could get 1000 users that would be insane.
