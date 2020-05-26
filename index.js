@@ -41,7 +41,6 @@ function addToIndex(indexDom, files) {
   files.forEach((v) => {
     let cont = indexDom.window.document.createElement("div");
     let aTag = indexDom.window.document.createElement("a");
-    let dateSpan = indexDom.window.document.createElement("span");
 
     let fss = v.split("_").join(" ");
     let indexOfFileEnding = fss.indexOf(".");
@@ -50,9 +49,7 @@ function addToIndex(indexDom, files) {
     aTag.setAttribute("href", `html/${v}`);
     aTag.textContent = tagTextContent;
 
-    dateSpan.textContent = `- ${new Date().toDateString()}`;
     cont.append(aTag);
-    cont.append(dateSpan);
     indexDom.window.document.querySelector("#articles").append(cont);
   });
 

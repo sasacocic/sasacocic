@@ -1,5 +1,7 @@
 # Setting up a dev enviornment for complete beginners📈
 
+Date: May 15th 2020
+
 So you just finished your first coding course on codecademy or you’ve been using an online IDE like repl.it. Now you're wondering how do I setup something similar on my own computer? In this post I’ll cover how you can do this with javascript (if your using another language it should be similar) and explain what’s going on at each step.
 
 ###### Have feedback? Reach me [@SasaCocic](https://twitter.com/SasaCocic)
